@@ -23,8 +23,15 @@ class Usuario{
     infoUser(){
         console.log(this.nome + "\n" + this.idade)
     }
+
+    soma(){
+        return 5 + this.idade;
+    }
 }
 
 let Gu = new Usuario("Gustavo", 20)
 
 Gu.infoUser()
+
+Gu.soma()
+
